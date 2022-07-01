@@ -1142,7 +1142,6 @@ img {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding-bottom: 25px;
     margin-top: 60px;
     margin-bottom: 40px;
   }
