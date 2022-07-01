@@ -1,0 +1,52 @@
+/* works*/
+
+.works section {
+    padding-top: 0;
+}
+
+.works__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.works__list {
+    display: flex;
+}
+
+.works__text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.works__item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.works__item:last-child {
+    margin-right: 0;
+}
+@media screen and (max-width: 1199px) {
+    .works__title {
+        display: none;
+    }
+    .works__list {
+        display: none;
+    }
+}
