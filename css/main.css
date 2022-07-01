@@ -859,8 +859,14 @@ img {
   color: var(--gray-text);
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits__text {
+    margin-right: 30px;
+  }
+}
+
 /* .benefits__item */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   .benefits__item {
     margin: 0;
     margin-bottom: 30px;
