@@ -11,12 +11,6 @@
     border-bottom: 1px solid #EEEEEE;
 }
 
-// .container {
-//     width: 1200px;
-//     padding: 0px 15px;
-//     margin: 0 auto;
-// }
-
 /*card set*/
 .cards__card-set-list {
     display: flex;
@@ -76,6 +70,7 @@
 .card:hover .card-action {
     transform: translateY(110px);
     transition: var(--hover-time);
+    
 }.card-text {
     font-family: 'Roboto';
     font-size: 16px;
@@ -151,10 +146,5 @@
         padding-bottom: 60px;
     }
 }
-// @media screen and (min-width: 1200px) {
-//     .cards__item {
-//         flex-basis: calc(100% / 3 - var(--card-set-gap));
-//         margin-left: var(--card-set-gap);
-//         margin-top: var(--card-set-gap);
-//     }
-// }
+
+//160

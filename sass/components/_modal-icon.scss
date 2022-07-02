@@ -178,7 +178,6 @@
 .modal__agreements-link {
     color: var(--blue);
     cursor: pointer;
-    // margin-left: 4px;
     text-decoration: underline;
 
 }
@@ -200,9 +199,8 @@
     letter-spacing: 0.06em;
     margin: auto;
 }
-@media screen and (max-width: 1119px){
+@media screen and (max-width: $tablet-max){
     .modal__agreements-link, .modal__checkbox{
     font-size: 12px;
-
     }
 }

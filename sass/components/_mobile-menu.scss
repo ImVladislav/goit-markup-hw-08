@@ -75,21 +75,32 @@
     .contacts-header__phone-svg {
         display: none;
     }
-    // .social-header__link {
-    //     display: none;
-    // }
+
     .header__menu-thumb {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        left: 0;
+        background-color: var(--white);
+        padding: 48px 40px;
+        transition: var(--hover-time);
     }
-    // .benefits__thumb {
-    //     width: 450px;
-    // }
-
-    // .benefits__item {
-    //     margin-right: 0;
-    //     margin-bottom: 30px;
-    // }
+    .header__menu-thumb.is-open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--white);
+        padding: 48px 40px;
+        transition: var(--hover-time);
+        // .page-header{
+        //     position: fixed;
+        // }
+        }
 }
-
-
-// 109
