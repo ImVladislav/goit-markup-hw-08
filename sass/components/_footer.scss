@@ -21,9 +21,12 @@
 
 .footer__thumb {
     @media screen and (min-width: $tablet-min){
-    display: flex;
-    margin-bottom: 60px;
-    align-items: baseline;
+        display: flex;
+        margin-bottom: 60px;
+        align-items: baseline;
+    }
+    @media screen and (min-width: $desctop) {
+        margin: 0;
     }
 }
 

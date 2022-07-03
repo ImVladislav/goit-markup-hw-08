@@ -453,6 +453,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__thumb {
+    margin: 0;
+  }
+}
+
 .footer__logo-link {
   color: var(--blue);
   font-family: 'Raleway';
