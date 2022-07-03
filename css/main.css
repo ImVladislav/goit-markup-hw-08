@@ -1573,7 +1573,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .modal__checkbox-bg {
-    bottom: 117px;
+    bottom: 118px;
+    left: 54px;
   }
 }
 
