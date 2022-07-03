@@ -10,16 +10,15 @@
 }
 
 .footer__container {
-
-
     align-items: baseline;
     @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
     padding: 0px 89px 0px 76px;
     }
-    // @media screen and (max-width: $mobile-max) {
-    //     padding: 0;
-    // }
+    @media screen and (min-width: $desctop) {
+        display: flex;
+    }
 }
+
 .footer__thumb {
     @media screen and (min-width: $tablet-min){
     display: flex;
@@ -210,6 +209,7 @@
     }
     @media screen and (min-width: 1200px) {
         margin: 0;
+        margin-left: 12px;
     }
 }
 
